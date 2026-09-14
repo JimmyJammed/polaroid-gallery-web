@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "path": "assets/demo-desktop.png",
+      "url": null,
+      "version": "1.0.0-draft-preview-2026-09-10",
+      "sha256": "706c543deb654720afc7c10385b189ea68e06b4fde8c14af8404cca797c268e6",
+      "rights": "Falcon Forged Ventures LLC. Authorized public portfolio display only; no redistribution license granted.",
+      "origin": "Existing draft product screenshot captured 2026-09-10. Includes original geometric landscape illustrations, not personal photographs."
+    },
+    {
+      "path": "assets/viewer-desktop.png",
+      "url": null,
+      "version": "1.0.0-draft-preview-2026-09-10",
+      "sha256": "3776bf8ced158302aa8bd1528befdc71f3ead1b0f6c1448c4bfc57ac35419b77",
+      "rights": "Falcon Forged Ventures LLC. Authorized public portfolio display only; no redistribution license granted.",
+      "origin": "Existing draft product screenshot captured 2026-09-10. Includes original geometric landscape illustrations, not personal photographs."
+    },
+    {
+      "path": "assets/viewer-phone.png",
+      "url": null,
+      "version": "1.0.0-draft-preview-2026-09-10",
+      "sha256": "e64741a1f5f3fd8c5069c18d8b10854ef0dd80a37e8bb44e465cdd17816d23dd",
+      "rights": "Falcon Forged Ventures LLC. Authorized public portfolio display only; no redistribution license granted.",
+      "origin": "Existing draft product screenshot captured 2026-09-10. Includes original geometric landscape illustrations, not personal photographs."
+    }
+  ]
+}
