@@ -1,5 +1,19 @@
 # Polaroid Gallery — Animated Web UI Component
 
+[![platform: Web](https://img.shields.io/badge/platform-Web-2563eb)](docs/GETTING_STARTED.md)
+[![language: TypeScript](https://img.shields.io/badge/language-TypeScript-3178c6?logo=typescript&logoColor=white)](package.json)
+[![integration: React adapter](https://img.shields.io/badge/integration-React%20adapter-149eca?logo=react&logoColor=white)](docs/API.md)
+[![Package version](https://img.shields.io/github/package-json/v/JimmyJammed/polaroid-gallery-web/main?label=package&color=blue)](package.json)
+[![Node: 22.18+](https://img.shields.io/badge/Node-22.18%2B-339933?logo=nodedotjs&logoColor=white)](package.json)
+[![license: source-available](https://img.shields.io/badge/license-source--available-a16207)](LICENSE.md)
+[![demo: view live](https://img.shields.io/badge/demo-view%20live-2563eb)](https://hickman.biz/portfolio/tactile-photo-gallery)
+
+[![unit tests: 8 passed (local)](https://img.shields.io/badge/unit%20tests-8%20passed%20%28local%29-2e7d32)](https://github.com/JimmyJammed/polaroid-gallery-web/blob/96672178d6b2509efb680d9963b5e532b35b0b1d/docs/VALIDATION.md)
+[![UI tests: 64 passed (local)](https://img.shields.io/badge/UI%20tests-64%20passed%20%28local%29-2e7d32)](https://github.com/JimmyJammed/polaroid-gallery-web/blob/96672178d6b2509efb680d9963b5e532b35b0b1d/docs/VALIDATION.md)
+[![build: verified locally](https://img.shields.io/badge/build-verified%20locally-2e7d32)](https://github.com/JimmyJammed/polaroid-gallery-web/blob/96672178d6b2509efb680d9963b5e532b35b0b1d/docs/VALIDATION.md)
+
+Test and build badges record local verification on **2026-09-14**, not live CI status. Click them for scope and results; the package badge reads `package.json`, not an npm release.
+
 Framework-neutral TypeScript image gallery with GSAP transitions, presets, keyboard navigation, and an optional React adapter.
 
 **Source-available · Experimental · Web** · [Live demo](https://hickman.biz/portfolio/tactile-photo-gallery)
