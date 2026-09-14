@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="A tactile photo gallery with thoughtful motion, accessible browsing, and a small, flexible API."><title>Tactile Photo Gallery — Falcon Forged</title></head>
+<body>
+<header><span class="wordmark">Falcon Forged / Objects for the web</span><a href="/examples/react/">React example ↗</a></header>
+<main>
+  <section class="intro"><div><span class="eyebrow">Component no. 02 · Tactile Photo Gallery</span><h1>A little less screen.<br><em>A little more feeling.</em></h1></div><p>Photographs with somewhere to belong. Scatter a collection, pick one up, and put it back where you found it. Make the details your own.</p></section>
+  <div class="workbench">
+    <aside class="settings" aria-label="Gallery settings"><h2>Make it yours.</h2>
+      <label>Presentation<select id="preset"><option value="scrapbook">Scrapbook</option><option value="portfolio">Portfolio</option><option value="editorial">Editorial</option></select></label>
+      <label>Photographs · <output>12</output><input id="count" type="range" min="0" max="12" value="12"></label>
+      <label>Primary photograph<select id="primary"></select></label>
+      <label>Scatter seed<input id="seed" type="number" value="42" min="0" max="99999"></label>
+      <label>Motion<select id="motion"><option value="auto">Respect device preference</option><option value="reduced">Reduced motion</option></select></label>
+      <p class="eyebrow">Keyboard & touch ready</p>
+    </aside>
+    <div class="gallery-shell"><div id="gallery"><div class="fallback"><a href="/images/scene-1.svg"><img src="/images/scene-1.svg" alt="The coast at dawn"></a><a href="/images/scene-2.svg"><img src="/images/scene-2.svg" alt="Desert afternoon"></a><a href="/images/scene-3.svg"><img src="/images/scene-3.svg" alt="Blue mountain lake"></a></div><p>Open a photograph above to view it without JavaScript.</p></div></div>
+  </div>
+  <section class="details"><div><span class="eyebrow">A small collection works, too</span><h2>Three memories.<br>The same attention.</h2><p>Each gallery has its own state. Browse this one while trying different settings above.</p><div id="small-gallery"><a href="/images/scene-1.svg">View the coast at dawn</a></div></div><div><span class="eyebrow">Built to fit your project</span><h2>A familiar interface.</h2><p>Use plain TypeScript or React. Bring your own photographs, captions, and colors.</p><button class="copy" id="copy" type="button">Copy example</button><pre id="usage"></pre><p>Demo images are original landscape illustrations included with the kit. Replace them with your own photographs.</p></div></section>
+</main><footer><span>© 2026 Falcon Forged Ventures LLC</span><span>Commercial end use permitted. Redistribution or resale of the source kit is prohibited.</span></footer>
+<script type="module" src="/src/demo.ts"></script>
+</body></html>
